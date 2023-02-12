@@ -9,3 +9,4 @@ include:
   - Classes/Dragon.md
   - Classes/Hydra.md
   - Classes/Griffin.md
+remote_theme: Slate
