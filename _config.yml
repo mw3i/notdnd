@@ -1,0 +1,11 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+  - Weapons.md
+  - Classes/Dragon.md
+  - Classes/Hydra.md
+  - Classes/Griffin.md
