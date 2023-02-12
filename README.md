@@ -2,7 +2,7 @@
 color-links: true
 ---
 
-Links: [Weapons](Weapons.md) | [Dragon Class](Classes/Dragon.md) | [Griffin Class](Classes/Griffin.md]) | [Hydra Class](Classes/Hydra.md)
+Links: [Weapons](Weapons.md) | [Dragon Class](Classes/Dragon.md) | [Griffin Class](Classes/Griffin.md) | [Hydra Class](Classes/Hydra.md)
 
 The purpose of the game is to advance the story by exploring the world. You win when the story ends.
 
