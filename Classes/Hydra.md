@@ -4,10 +4,10 @@ trait: dexterity
 environment: forest
 ---
 
-health: 22
-weapon: **Snake's Fang** (Rope Dart)
-- made of bone attached to a looped rope; worn as a necklace 
-- stun on <= greater monsters (inluding Umarians)
+- health: 22
+- weapon: **Snake's Fang** (Rope Dart)
+  - made of bone attached to a looped rope; worn as a necklace 
+  - stun on <= greater monsters (inluding Umarians)
 
 
 # Spells
