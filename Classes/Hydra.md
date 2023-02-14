@@ -4,17 +4,11 @@ trait: dexterity
 environment: forest
 ---
 
-health: 25
+health: 22
+weapon: **Snake's Fang** (Rope Dart)
+- made of bone attached to a looped rope; worn as a necklace 
+- stun on <= greater monsters (inluding Umarians)
 
-> [!Weapon] 
-> **Snake's Fang**
-> 
-> - made of bone
-> - attached to a looped rope; worn as a necklace 
-> - speed advantage
-> - stun on <= greater monsters (inluding Umarians)
-
-<!-- the reason it's attached to a small string is because Andrew is known for swinging his key lanyard around; the blade on a rope is basically a lanyard -->
 
 # Spells
 

@@ -4,14 +4,10 @@ trait: power
 environment: stone
 ---
 
-health: 22
-
-> [!Weapon]
-> **Dragon's Claw** (Lance)
-> 
-> - made of wood and metal
-> - power advantage
-> - +2 on all attacks
+health: 25
+weapon: **Dragon's Claw** (Lance)
+- made of wood and metal
+- +2 on all attacks
 
 
 # Spells
@@ -24,8 +20,9 @@ recharge: 1 turn
 
 Adds buffs to other actions; choose:
 
-- if dashing, x3 distance on a single dash (but can only be in one direction; cant change angles)
-- add roll to damage and pushback of next attack
+- , x3 distance on a single dash (but can only be in one direction; cant change angles)
+- rom: add damage to rom attack; push back 3 spaces
+- weapon: add roll to attack (flavoring: takes two swings with lance)
 
 Rules:
 - only works on self

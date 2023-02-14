@@ -5,12 +5,9 @@ environment: metal
 ---
 
 health: 28
-
-> [!Weapon]
-> **The Crane's Wing**
-> 
-> - made of metal; requires wearing a metal palm band
-> - range advantage (can be thrown up to 4 dashes)
+weapon: **The Crane's Wing** (Boomerang)
+- made of metal; requires wearing a metal palm band
+- can be thrown up to 4 dashes
 
 <!-- 
   - requires 2 dodges to avoid if target is 2-3 paces away
