@@ -4,10 +4,10 @@ trait: power
 environment: stone
 ---
 
-health: 25
-weapon: **Dragon's Claw** (Lance)
-- made of wood and metal
-- +2 on all attacks
+- health: 25
+- weapon: **Dragon's Claw** (Lance)
+    - made of wood and metal
+    - +2 on all attacks
 
 
 # Spells

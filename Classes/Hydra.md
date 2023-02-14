@@ -1,5 +1,5 @@
 ---
-title: Snake
+title: Hydra
 trait: dexterity
 environment: forest
 ---
