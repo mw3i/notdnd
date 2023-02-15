@@ -1,5 +1,6 @@
 plugins:
   - jekyll-relative-links
+  - jekyll-readme-index
 relative_links:
   enabled: true
   collections: true
@@ -9,9 +10,6 @@ include:
   - Classes/Dragon.md
   - Classes/Hydra.md
   - Classes/Griffin.md
-  - _/craneswing.jpg
-  - _/dragonsclaw.jpg
-  - _/snakesfang.jpg
 theme: minima
 minima:
   skin: dark

@@ -5,8 +5,8 @@ environment: metal
 ---
 
 - health: 28
-- weapon: **The Crane's Wing** (Boomerang)
-    - made of metal; requires wearing a metal palm band
+- weapon: [**The Crane's Wing**](Weapons)
+    - made of metal; requires user to wear a metal band around palm
     - can be thrown up to 4 dashes
 
 <!-- 
@@ -16,7 +16,7 @@ environment: metal
 
 # Spells
 
-## Lvl 1: Push/Pull
+## Lvl 1:  (Push/Pull)
 ```yaml
 roll: 3+ on 1d6 >>
 recharge: 1 turn
@@ -24,9 +24,14 @@ recharge: 1 turn
 
 Push or pull objects 
 
-- distance: 6 dashes / mass 
-- pushing an object can be a damage attack
+- targeting distance: 6 dashes / mass 
+- push/pull distance:
+    - small obj: 6 spaces
+    - med obj: 3 spaces
+    - large obj: 1 space
+- if used as a damage attack
     - damage = roll / obj mass
+
 
 > Masses:
 > - light obj = 1 (e.g., a rock)
@@ -52,7 +57,7 @@ Secret move unlocks:
  -->
 <!-- 
 
-## Lvl 2: Mirror Portal
+## Lvl 2:  (Mirror Portal)
 ```yaml
 roll: 3+ on 1d6
 recharge: 3 turns
@@ -74,7 +79,7 @@ Can be cast as a reaction.
 <!-- secret move: cast a portal below yourself and jump in it; can be used as counter that is always successful regardless of whether opp meets roll threshold -->
 
 <!-- 
-## Lvl 3 (special): Current
+## Lvl 3 (special):  (Current)
 
 ```yaml
 roll: 6+ on 1d20 >>

@@ -5,14 +5,14 @@ environment: stone
 ---
 
 - health: 25
-- weapon: **Dragon's Claw** (Lance)
+- weapon: [**Dragon's Claw**](Weapons)
     - made of wood and metal
     - +2 on all attacks
 
 
 # Spells
 
-## Lvl 1: Burst-Mode
+## Lvl 1:  (Burst-Mode)
 ```yaml
 roll: 3+ on 1d6 >>
 recharge: 1 turn
@@ -20,16 +20,23 @@ recharge: 1 turn
 
 Adds buffs to other actions; choose:
 
-- , x3 distance on a single dash (but can only be in one direction; cant change angles)
-- rom: add damage to rom attack; push back 3 spaces
-- weapon: add roll to attack (flavoring: takes two swings with lance)
+- x3 distance on a single dash (but can only be in one direction; cant change angles)
+- attack is undodgeable (~)
+- rom: add damage to rom attack; push back 3 spaces (falcon punch)
+- weapon: add roll to attack
 
 Rules:
 - only works on self
 
-<!-- originally i wanted the land threshold to increase to represent the user flailing and failing because of the extra power that's harder to control; but we already kinda get that with the init threshold, so might as well just make it a flavoring when the event actually happens than trying to build it in mechanically-->
 <!-- 
-## Lvl 2: Fire
+Secret Uses:
+- can burst-rom a friendly to launch them 3 spaces
+- 
+
+ -->
+
+<!-- 
+## Lvl 2:  (Fire Breath)
 ```yaml
 roll: 3+ on 1d6 >> x2
 recharge: 3 turns
@@ -47,7 +54,7 @@ Breath a powerful stream fire towards anyone within 2 dashes
     - tiles last 2 rounds
 
 
-## Lvl 3 (special): Guts-Mode
+## Lvl 3 (special): "Guts" (Guts-Mode)
 ```yaml
 roll: 6+ on 1d20 >>
 charge: 1 turn
@@ -57,11 +64,11 @@ recharge: 1 day
 
 Recharge all spells
 
-Then: Perform 10 actions in a row.
+Then: Perform an additional number of actions equal to the roll.
 
 Rules:
 
 - can only be used when health is 5 or fewer
-- can be used in response to getting attacked (if resulting is health is 5 or fewer)
-
-Nat 20: +2 actions (so, 12 total) -->
+- can be used in response to getting attacked if resulting is health is 5 or fewer (i.e., a conditional reaction spell)
+-->
+<!-- Nat 20: +2 actions (so, 12 total) -->

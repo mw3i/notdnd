@@ -5,14 +5,14 @@ environment: forest
 ---
 
 - health: 22
-- weapon: **Snake's Fang** (Rope Dart)
+- weapon: [**Snake's Fang**](Weapons)
   - made of bone attached to a looped rope; worn as a necklace 
-  - stun on <= greater monsters (inluding Umarians)
+  - stun on <= greater monsters (inluding humans)
 
 
 # Spells
 
-## Lvl 1: Siphon / Send
+## Lvl 1:  (Siphon / Send)
 ```yaml
 roll: 3+ on 1d6 >>
 recharge: 1 turn
@@ -37,20 +37,20 @@ Special moves:
 
 
 <!-- 
-## Lvl 2: Rapidash
+## Lvl 2: "foryen-hex ced"(Rapidash)
 ```yaml
 roll: 3+ on 1d6
 recharge: 3 turns
 ```
 
-- Adds 3 dashes to action set on player's turn (have to be used in succession)
-- at the end of each dash, if within range of an opponent, you can make a weapon attack
+- Adds 6 dashes to action set on player's turn (have to be used in succession)
 - Can be used as a reaction on any person's turn
+  - if you have siphoned energy / chakra, you can _expell_ it during a reaction (but can't pull it)
 
  --><!-- - Close-ranged (hand-to-hand) attacks can't be countered or dodged -->
 <!-- - Can't be attacked while rapidashing -->
 
-<!-- ## Lvl 3 (special): DNA EMP
+<!-- ## Lvl 3 (special): "Emp" (DNA EMP)
 ```yaml
 roll: 6+ on 1d20 >>
 charge: 1 turn
