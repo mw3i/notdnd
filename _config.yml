@@ -9,6 +9,11 @@ include:
   - Classes/Dragon.md
   - Classes/Hydra.md
   - Classes/Griffin.md
-remote_theme: jekyll/minima
+theme: minima
 minima:
   skin: dark
+header_pages:
+  - Classes/Dragon.md
+  - Classes/Hydra.md
+  - Classes/Griffin.md
+  - Weapons.md
