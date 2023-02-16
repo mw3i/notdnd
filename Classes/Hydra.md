@@ -4,7 +4,7 @@ trait: dexterity
 environment: forest
 ---
 
-![](assets/hydra-class.webp){: width="20%"}
+![](/assets/hydra-class.webp){: width="20%"}
 
 - health: 22
 - weapon: [**Snake's Fang**](Weapons)
