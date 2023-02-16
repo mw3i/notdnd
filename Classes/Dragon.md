@@ -55,7 +55,6 @@ Breath a powerful stream fire towards anyone within 2 dashes
     - each tile has to be adjacent to the last
     - tiles last 2 rounds
 
-
 ## Lvl 3 (special): "guts-mod"
 ```yaml
 roll: 6+ on 1d20 >>
