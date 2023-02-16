@@ -4,10 +4,10 @@ trait: power
 environment: stone
 ---
 
-![](../assets/dragon-class.jpg){: width="40%"}
+![](../assets/dragon-class.jpg){: width="60%"}
 
 - health: 25
-- weapon: [**Dragon's Claw**](Weapons)
+- weapon: [**Dragon's Claw**](../Weapons)
     - made of wood and metal
     - +2 on all attacks
 
