@@ -4,7 +4,7 @@ trait: range
 environment: metal
 ---
 
-![](/assets/griffin-class.jpg){: width="20%"}
+![](../assets/griffin-class.jpg){: width="20%"}
 
 - health: 28
 - weapon: [**The Crane's Wing**](Weapons)
