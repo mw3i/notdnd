@@ -7,7 +7,7 @@ environment: metal
 ![](../assets/griffin-class.jpg){: width="20%"}
 
 - health: 28
-- weapon: [**The Crane's Wing**](Weapons)
+- weapon: [**The Crane's Wing**](../Weapons)
     - made of metal; requires user to wear a metal band around palm
     - can be thrown up to 4 dashes
 

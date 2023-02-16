@@ -7,7 +7,7 @@ environment: forest
 ![](../assets/hydra-class.webp){: width="20%"}
 
 - health: 22
-- weapon: [**Snake's Fang**](Weapons)
+- weapon: [**Snake's Fang**](../Weapons)
   - made of bone attached to a looped rope; worn as a necklace 
   - stun on <= greater monsters (inluding humans)
 
