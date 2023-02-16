@@ -4,6 +4,8 @@ trait: dexterity
 environment: forest
 ---
 
+![](/assets/hydra-class.webp){: width="20%"}
+
 - health: 22
 - weapon: [**Snake's Fang**](Weapons)
   - made of bone attached to a looped rope; worn as a necklace 
@@ -12,7 +14,7 @@ environment: forest
 
 # Spells
 
-## Lvl 1:  (Siphon / Send)
+## Lvl 1: "Em-Vee" (Siphon / Send)
 ```yaml
 roll: 3+ on 1d6 >>
 recharge: 1 turn
@@ -50,7 +52,7 @@ recharge: 3 turns
  --><!-- - Close-ranged (hand-to-hand) attacks can't be countered or dodged -->
 <!-- - Can't be attacked while rapidashing -->
 
-<!-- ## Lvl 3 (special): "Emp" (DNA EMP)
+<!-- ## Lvl 3 (special): "em-vee-star"
 ```yaml
 roll: 6+ on 1d20 >>
 charge: 1 turn
@@ -59,15 +61,13 @@ recharge: 1 day
 
  --><!-- Player stretches out arms, and emits a piercing pulse wave touching anything within 3 dashes. Any creature (including teammates) caught in pulse: -->
 
-<!-- - are stunned -->
-
-<!-- - lose magic for 2 turns 
-  - including base spells and dodge
+<!-- 
+- lose magic for 2 turns 
+- including base spells and dodge
 - take damage equal to dice rollover / # of creatures in radius
-- are stunned
 
-> they also start vomiting (hence the "stunned")
 
 Player gets health equal to dice rollover.
 
-Nat 20: full health -->
+Nat 20: full health
+-->

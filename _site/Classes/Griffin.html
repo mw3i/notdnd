@@ -1,50 +1,59 @@
----
-title: Griffin
-trait: range
-environment: metal
----
+<p><img src="/assets/griffin-class.jpg" alt="" width="20%" /></p>
 
-![](/assets/griffin-class.jpg){: width="20%"}
-
-- health: 28
-- weapon: [**The Crane's Wing**](Weapons)
-    - made of metal; requires user to wear a metal band around palm
-    - can be thrown up to 4 dashes
+<ul>
+  <li>health: 28</li>
+  <li>weapon: <a href="Weapons"><strong>The Crane’s Wing</strong></a>
+    <ul>
+      <li>made of metal; requires user to wear a metal band around palm</li>
+      <li>can be thrown up to 4 dashes</li>
+    </ul>
+  </li>
+</ul>
 
 <!-- 
   - requires 2 dodges to avoid if target is 2-3 paces away
 -->
 
+<h1 id="spells">Spells</h1>
 
-# Spells
+<h2 id="lvl-1-ar-sink-pushpull">Lvl 1: “ar-sink” (Push/Pull)</h2>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">roll</span><span class="pi">:</span> <span class="s">3+ on 1d6 &gt;&gt;</span>
+<span class="na">recharge</span><span class="pi">:</span> <span class="s">1 turn</span>
+</code></pre></div></div>
 
-## Lvl 1: "ar-sink" (Push/Pull)
-```yaml
-roll: 3+ on 1d6 >>
-recharge: 1 turn
-```
+<p>Push or pull objects</p>
 
-Push or pull objects 
+<ul>
+  <li>targeting distance: 6 dashes / mass</li>
+  <li>push/pull distance:
+    <ul>
+      <li>small obj: 6 spaces</li>
+      <li>med obj: 3 spaces</li>
+      <li>large obj: 1 space</li>
+    </ul>
+  </li>
+  <li>if used as a damage attack
+    <ul>
+      <li>damage = roll / obj mass</li>
+    </ul>
+  </li>
+</ul>
 
-- targeting distance: 6 dashes / mass 
-- push/pull distance:
-    - small obj: 6 spaces
-    - med obj: 3 spaces
-    - large obj: 1 space
-- if used as a damage attack
-    - damage = roll / obj mass
+<blockquote>
+  <p>Masses:</p>
+  <ul>
+    <li>light obj = 1 (e.g., a rock)</li>
+    <li>medium obj = 2 (e.g., human)</li>
+    <li>heavy obj = 6 (e.g., massive boulder)</li>
+  </ul>
 
-
-> Masses:
-> - light obj = 1 (e.g., a rock)
-> - medium obj = 2 (e.g., human)
-> - heavy obj = 6 (e.g., massive boulder)
-> 
-> Based on the Force = Mass * Acceleration equation where:
-> - Force <=> Roll
-> - Acceleration <=> Damage  	
-> (don't know if that makes sense but good enough)
-
+  <p>Based on the Force = Mass * Acceleration equation where:</p>
+  <ul>
+    <li>Force &lt;=&gt; Roll</li>
+    <li>Acceleration &lt;=&gt; Damage  	
+(don’t know if that makes sense but good enough)</li>
+  </ul>
+</blockquote>
 
 <!-- medium objects add +2 if throwing downwards; heavy objects: add +4 if throwing downwards -->
 

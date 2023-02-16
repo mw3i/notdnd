@@ -4,6 +4,8 @@ trait: power
 environment: stone
 ---
 
+![](/assets/dragon-class.jpg){: width="40%"}
+
 - health: 25
 - weapon: [**Dragon's Claw**](Weapons)
     - made of wood and metal
@@ -12,7 +14,7 @@ environment: stone
 
 # Spells
 
-## Lvl 1:  (Burst-Mode)
+## Lvl 1: "up-syk" (Burst-Mode)
 ```yaml
 roll: 3+ on 1d6 >>
 recharge: 1 turn
@@ -36,7 +38,7 @@ Secret Uses:
  -->
 
 <!-- 
-## Lvl 2:  (Fire Breath)
+## Lvl 2: "rom-star" (Fire Breath)
 ```yaml
 roll: 3+ on 1d6 >> x2
 recharge: 3 turns
@@ -54,7 +56,7 @@ Breath a powerful stream fire towards anyone within 2 dashes
     - tiles last 2 rounds
 
 
-## Lvl 3 (special): "Guts" (Guts-Mode)
+## Lvl 3 (special): "guts-mod"
 ```yaml
 roll: 6+ on 1d20 >>
 charge: 1 turn
@@ -68,7 +70,12 @@ Then: Perform an additional number of actions equal to the roll.
 
 Rules:
 
-- can only be used when health is 5 or fewer
+- can only use if health is less than 5
 - can be used in response to getting attacked if resulting is health is 5 or fewer (i.e., a conditional reaction spell)
 -->
+
+<!-- 
+Secret Combo: have andrew use health syphon to put sean below 5, and then return the health back
+ -->
+
 <!-- Nat 20: +2 actions (so, 12 total) -->
