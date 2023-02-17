@@ -4,7 +4,7 @@ trait: power
 environment: stone
 ---
 
-![](../assets/dragon-class.jpg){: width="60%"}
+![Source: https://www.wallpaperflare.com/warrior-wielding-spear-facing-dragon-digital-wallpaper-fantasy-art-wallpaper-hmddt](../assets/dragon-class.jpg){: width="60%"}
 
 - health: 25
 - weapon: [**Dragon's Claw**](../Weapons)
@@ -23,9 +23,12 @@ recharge: 1 turn
 Adds buffs to other actions; choose:
 
 - x3 distance on a single dash (but can only be in one direction; cant change angles)
-- attack is undodgeable (~)
-- rom: add damage to rom attack; push back 3 spaces (falcon punch)
-- weapon: add roll to attack
+- burst rom: add damage to rom attack; push back 6 spaces / target mass (falcon punch)
+    - large monster: 1 space
+    - medium monster (human): 3 spaces
+    - small monster: 6 spaces
+- burst weapon: add roll to an undodgeable weapon attack
+    - defender can still counter, but needs to roll higher than weapon roll + burst spell roll
 
 Rules:
 - only works on self
@@ -38,7 +41,7 @@ Secret Uses:
  -->
 
 <!-- 
-## Lvl 2: "rom-star" (Fire Breath)
+## Lvl 2: "rom-star" (Fire Breathing)
 ```yaml
 roll: 3+ on 1d6 >> x2
 recharge: 3 turns

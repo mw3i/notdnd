@@ -16,6 +16,7 @@ theme: minima
 minima:
   skin: dark
 header_pages:
+  - Rules.md
   - Classes/Dragon.md
   - Classes/Hydra.md
   - Classes/Griffin.md

@@ -4,7 +4,7 @@ trait: dexterity
 environment: forest
 ---
 
-![](../assets/hydra-class.webp){: width="40%"}
+![Source: https://gameofthronesfanon.fandom.com/wiki/Nightlords](../assets/hydra-class.webp){: width="40%"}
 
 - health: 22
 - weapon: [**Snake's Fang**](../Weapons)
@@ -14,7 +14,7 @@ environment: forest
 
 # Spells
 
-## Lvl 1: "Em-Vee" (Siphon / Send)
+## Lvl 1: "em-vee" (Siphon / Send)
 ```yaml
 roll: 3+ on 1d6 >>
 recharge: 1 turn

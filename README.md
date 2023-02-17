@@ -1,5 +1,7 @@
 ---
+title: Not DnD
 color-links: true
+version: 0.1
 ---
 
 <!-- Links: [Weapons](Weapons.md) | [Dragon Class](Classes/Dragon.md) | [Griffin Class](Classes/Griffin.md) | [Hydra Class](Classes/Hydra.md) -->
@@ -32,6 +34,14 @@ If you haven't used all 3 actions yet, you can do the following outside of your 
 | dodge   | move 1 dash away from target; don't take damage |      |
 | counter | if opponent's melee fails, free weapon swipe    |      |
 | cast    | some spells can be case as reactions            |      |
+
+## Conflict Logic
+
+1. Attacker declares action
+2. Defender (if any) declares response (dodge, counter)
+3. Both roll same die
+    - **dodge**: roll past attacker's threshold (i.e., 3+ on a d6 for a lvl 1 spell)
+    - **counter**: roll at or higher than attack's roll
 
 # Base Spells
 

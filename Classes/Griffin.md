@@ -4,7 +4,7 @@ trait: range
 environment: metal
 ---
 
-![](../assets/griffin-class.jpg){: width="40%"}
+![Source: LynxKano @ https://www.deviantart.com/lynxkano/art/dodging-333329314](../assets/griffin-class.jpg){: width="40%"}
 
 - health: 28
 - weapon: [**The Crane's Wing**](../Weapons)
