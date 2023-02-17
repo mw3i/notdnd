@@ -43,6 +43,8 @@ If you haven't used all 3 actions yet, you can do the following outside of your 
     - **dodge**: roll past attacker's threshold (i.e., 3+ on a d6 for a lvl 1 spell)
     - **counter**: roll at or higher than attack's roll
 
+---
+
 # Base Spells
 
 | spell | description                                                  | combat effect                         |
