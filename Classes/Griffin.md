@@ -34,7 +34,6 @@ Push or pull objects
 - if used as a damage attack
     - damage = roll / obj mass
 
-
 > Masses:
 > - light obj = 1 (e.g., a rock)
 > - medium obj = 2 (e.g., human)
@@ -56,7 +55,6 @@ Secret move unlocks:
 - can be used on same person (have to roll for each one
 - ^ double hits have to follow a reasonable boomerang shape
  -->
-<!-- 
 
 ## Lvl 2: "echo" (Mirror Portal)
 ```yaml
@@ -76,7 +74,7 @@ Can be cast as a reaction.
 
 > [!World]
 > The timing of the "absorb" and "reflect" aspects of the mirror are staggered 1 action unit in time. Otherwise, reflecting matter back would just cause something to collide into itself and do nothing.
- -->
+
 <!-- secret move: cast a portal below yourself and jump in it; can be used as counter that is always successful regardless of whether opp meets roll threshold -->
 
 <!-- 

@@ -105,11 +105,11 @@ magic:
 
 ## Giga-Gorilla
 ```yaml
-health: 50
-attack: hammer fist (6 damage)
+health: 30
+attack: hammer fist (8 damage)
 magic:
     - lvl 1: chest pump shock wave
-    - special: hammer fist
+    - lvl 2: hammer fist
 ```
 
 # Plant Thing
