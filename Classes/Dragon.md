@@ -29,13 +29,14 @@ Adds buffs to other actions; choose:
     - small monster: 6 spaces
 - burst weapon: add roll to an undodgeable weapon attack
     - defender can still counter, but needs to roll higher than weapon roll + burst spell roll
+- burst los: no attack threshold on next move & full field awareness
 
 Rules:
 - only works on self
 
 <!-- 
 Secret Uses:
-- can burst-rom a friendly to launch them 3 spaces
+- can burst-rom a friendly to launch them 3 spaces (they take damage)
 - 
 
  -->

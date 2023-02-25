@@ -32,6 +32,8 @@ After a siphon, you can "send" the energy back with any the following:
 
 Sending to another player requires physical contact.
 
+Collected siphon depletes _at the end_ of your next turn.
+
 <!-- 
 Special moves:
 - steal health from self (or ally), convert to other ally
@@ -45,12 +47,10 @@ roll: 3+ on 1d6
 recharge: 3 turns
 ```
 
-- Adds 6 dashes to action set on player's turn (have to be used in succession)
+- Adds 6 movement actions (dashes / dodges) to action set on player's turn
 - Can be used as a reaction on any person's turn
   - if you have siphoned energy / chakra, you can _expell_ it during a reaction (but can't pull it)
-
- --><!-- - Close-ranged (hand-to-hand) attacks can't be countered or dodged -->
-<!-- - Can't be attacked while rapidashing -->
+ -->
 
 <!-- ## Lvl 3 (special): "em-vee-star"
 ```yaml

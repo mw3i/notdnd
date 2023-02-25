@@ -138,23 +138,6 @@ You can't use a reactive action to attack, unless
 - it follows a successful counter
 - you are chaining with an active (current turn) player's action
 
-The event logic for reactions are:
-
-- Opponent declares action (e.g., attack)
-- You declare rebuttal (e.g., counter)
-- You and Opponent roll for success
-	- **attacker**: roll above action threshold
-	- **defender**: 
-		- _dodge_: roll >= Opp's action threshold (e.g., 3+ on a d6 for a lvl 1 spell)
-		- _counter_: roll >= Opp's roll
-
-<details>
-<summary>Comment</summary>
-I'm a fan of this new logic system because it makes the "tandem roll" feel like an actual competition to roll high. It doesn't solve the issue of the gridlock issue (requiring attacker to wait for opponent to decide), it at least makes the event sequence "memory-less" (rolls are calculated _after_ action and reaction are both declared). We might have to change the roll threshold for dodging if I end up removing roll thresholds all together (maybe like, half your opponents roll round up).
-
-This allow allows adding dice modifiers; like, if you use "burst" 
-</details>
-
 ### Dodge
 
 If you're under attack, you can dodge the attack as many times as you have available slots.
@@ -163,25 +146,30 @@ If you're under attack, you can dodge the attack as many times as you have avail
 
 More rules:
 
+- Have to move 1 tile (can be adjacent or non-adjacent to opp)
+- If moving to a tile still leaves you in a moves area-of-effect, you can't technically dodge the move
+	- weapon swipes can have adjacent area of effect (like the persons "swinging" the weapon)
 - You can dodge if being attacked from behind (backstabbed)
-- have to move to a tile non-adjacent from your opponent
-- If moving to a non-adjacent tile still leaves you in a moves area-of-effect, you can't technically dodge the move
 
-#### Block
+<!-- ### Block
 
-Some weapons allow for "blocking". A block is treated as a dodge, except the user (defender) stays on their current tile
+If under attack, roll the same dice as attacker. Subtract roll from damage; negative values strike opponent (if weapon-able).
 
-### Counter
+ -->
 
-Instead of dodging, you can bank on an opponent failing their attack throw. If they fail, you get to respond with an attack.
+ ### Counter
 
-- You move to a tile adjacent to opponent (if no tiles exist, you can't counter)
-<!-- - They can dodge/counter a counter (atm) -->
+If under attack, roll the same dice as attacker. If you roll higher, deal that roll as weapon damage to opponent.
 
-> Q. Why wouldn't I always counter?
-> A. Because you miss the chance to dodge
+- have to be within range of weapon strike (range weapons can do ranged counters)
 
-> A counter is actually a call of the `los` spell
+<!-- #### Defend -->
+
+<!-- Instead of dodging, you can defend against at least some of the damage your opponents dealing (or even dish some back). -->
+
+<!-- - They can dodge/defend a defend (atm) -->
+
+<!-- maybe make defending not cost a move -->
 
 ### Cast
 

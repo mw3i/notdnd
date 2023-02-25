@@ -22,4 +22,3 @@ title: Weapons
 - attached to a looped rope; worn as a necklace 
 - stun on <= greater monsters (inluding Umarians)
 
-

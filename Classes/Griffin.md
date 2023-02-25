@@ -95,4 +95,5 @@ Throw the boomerang in a large cone (w/ length of 5 dashes). Everyone in the con
 
 > cuz they're stunned by the electrocution
 
-nat 20: get an extra boomerang throw before your turn ends -->
+nat 20: get an extra boomerang throw before your turn ends 
+-->
