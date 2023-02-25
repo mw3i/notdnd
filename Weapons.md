@@ -23,8 +23,7 @@ title: Weapons
 - stun on <= greater monsters (inluding Umarians)
 
 ---
-
+<!-- 
 # Sudo Staff
 ![Source: Banjoker @ https://www.deviantart.com/banjoker/art/Shadow-Staff-760712260](assets/sudostaff.png)
-
-- ?
+- ? -->
