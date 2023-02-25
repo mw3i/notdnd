@@ -29,11 +29,11 @@ For each round, for each player, perform 3 actions in any order:
 
 If you haven't used all 3 actions yet, you can do the following outside of your turn:
 
-| ReAction | Effect                                          | roll |
-| -        | -                                               | -    |
-| dodge    | move 1 dash away from target; don't take damage |      |
-| defend   | roll against opponent; change to deal damage    |      |
-| cast     | some spells can be case as reactions            |      |
+| ReAction | Effect                                                   | roll |
+| -        | -                                                        | -    |
+| dodge    | move 1 dash away from target; don't take damage          |      |
+| counter  | roll against opponent; higher roll means attack is yours |      |
+| cast     | some spells can be case as reactions                     |      |
 
 If an an action roll fails to meet threshold, recharge doesn't go into effect. 
 
