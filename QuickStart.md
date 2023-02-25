@@ -57,7 +57,8 @@ If the spell was successful, but the opponents dodge -- that still triggers a re
 <!--     - IF **block**: roll against opponents die; opp roll - your roll = damage dealt. -->
 <!--     - If negative, deal damage to attacker (i.e., a _counter_) -->
 
-<details>
+
+<!-- <details>
 <summary>^ Rationale</summary>
 I'm a fan of this new logic system because it makes the "tandem roll" feel like an actual competition to roll high. It doesn't solve the gridlock issue (requiring attacker to wait for opponent to decide before round progression), it at least makes things "memory-less" (rolls are calculated _after_ action and reaction are both declared). We might have to change the roll threshold for dodging if I end up removing roll thresholds all together (maybe like, half your opponents roll round up).
 
@@ -65,7 +66,7 @@ This allow allows adding dice modifiers; like, if you use "burst", your modifier
 
 This also gives advantage to the attacker, which seems fair. The attacker can still take damage if countered, but it's not as drastic.
 </details>
-
+ -->
 ---
 
 # Base Spells
