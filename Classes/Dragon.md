@@ -51,7 +51,7 @@ Breath a powerful stream fire towards anyone within 4 dashes
 > think: cyclops from x-men, but with fire
 
 - damage rollover can be spread across opponents
-- drop as many "fire tiles" as you have rolls
+- can also make a wall of fire; drop as many "fire tiles" as you have rolls
     - each one deals +2 damage if stepped on
     - each tile has to be adjacent to the last
     - tiles last 2 rounds
