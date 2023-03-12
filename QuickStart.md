@@ -25,6 +25,8 @@ For each round, for each player, perform 3 actions in any order:
 | cast base spell  | see [base spells]            |      |
 | cast lvl 1 spell | see [class]; 1 turn recharge | 1d6  |
 | cast lvl 2 spell | see [class]; 2 turn recharge | 1d8  |
+
+
 <!-- | cast special    | see [class]; 1 encounter recharge; 3 charge actions required | 6+ on 1d20  | -->
 <!-- | cast ultimate   | 1 per campaign             | always land | -->
 
