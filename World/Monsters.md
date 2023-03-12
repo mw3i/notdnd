@@ -42,15 +42,17 @@ magic: all player-class lvl 1 spells
 ## Sigma
 ```yaml
 health: ?
-weapon: katana
+weapon: katana (link)
 magic: ?
-    - lvl 1: "rem"; teleport (opens a portal _outward_, pushing any objects that can be pushed out of the way); can use up to 3, each one counts as an action
-    - lvl 2: "dot-star"; black hole (blocks vision inside a range of space) for 3 turns (including the turn it is activated); recharge kicks in at end of effect (3 turns)
-        - cant dodge attacks
-        - can attack but cant aim
-    - special: "clon-rem-star"; repeat blink (requires 1 turn charge); can be in up to 6 places at once; katana swipe damage equal to roll
+    - base dash: 'rem-ced'; teleport up to 8 spaces
+        - opens a portal _outward_, pushing any objects that can be pushed out of the way; can use up to 3, each one counts as an action
+    - lvl 1: sword throw: throw sword in between a dash; does damage inside the range of attack; catch it on your teleport landing
+    - lvl 2: "clon-rem-star"; repeat blink (requires 1 turn charge); can be in up to 6 places at once; katana swipe damage equal to roll
         - can double up on the same person
         - if 3 tokens on one person: it's undodgeable (because no safe tile is available)
+    - special (field changer): "dot-star"; black hole (blocks vision inside a range of space) for 4 turns (including the turn it is activated); recharge kicks in at end of effect (4 turns)
+        - cant dodge attacks
+        - can attack but cant aim
 ```
 
 ## Mono
@@ -59,14 +61,17 @@ health: ?
 weapon: knight's sword, "The Eagles Talon" (also serves as a sniper rifle)
     - shoots a pulse of light with range of 10 (requires a charge)
 magic: ?
-    - lvl 1: "ranjr"; fly up 3 dashes vertically; no longer melee-able; lasts 2 turns (i.e., can just keep recharging flight)
+    - base ced: fly up 3 dashes vertically; no longer melee-able. lasts till end of turn; costs 1 action. can also be used to fly 3 tiles forward (basically, up or out). can stack to fly higher; gravity is 1 dash downward per turn
         - hide: if you have a move that launches you 3 dashes vertically, you can do a melee-able attack
-    - lvl 2: "ee-em-pe"; any user caught in lightnening arc of 12 tiles (have to draw arc) loses magic for next turn
+    - lvl 1: "arc attack", roll damage in an arc of 12 tiles
         - start arc from occupied tile
         - damage = dice roll; subtract -3 from damage count each time a target is hit (dissipating damage)
         - hide: they can reduce the impact of this spell by spreading out
-    - special: "see-tee-el kil"; from flight: charge into the earth and emit a pulse of energy where you land; everyone caught in 6 tiles radius of a pulse takes damage equal to dice roll and is pushed back to the edge of the radius. stunned on next turn
+    - lvl 2: "see-tee-el kil"; from flight: charge into the earth and emit a pulse of energy where you land; everyone caught in 6 tiles radius of a pulse takes damage equal to dice roll and launched in the air. stunned on next turn
+    - special (field changer): "ee-em-pee". (no magic); giant blast of energy that deals no damage, but makes everyone (except mono IF he was in the air at time of cast) lose spell casting ability for 4 turns
+        - sphere rules: you can declare spaces you wnat to move. i tell you whether something is within range. ill also ping whenever you or another character moves,
 
+pleads with party to please side with him and dont join sigma. its a trap, he says
 ``` 
 
 ## Exorcist Grunt
@@ -92,7 +97,6 @@ attack: headbutt (2 damage)
 - quick to become enraged
 - knows: "headbutt"
 
-<!-- 
 
 ## Pain-Deer
 ```yaml
@@ -112,14 +116,14 @@ magic:
     - lvl 2: hammer fist
 ```
 
-# Plant Thing
+<!-- 
+## Tree Roots
 
-Dont touch it
- -->
+infinite health except against fire
+-->
 
 
 <!-- 
-
 # Demons
 
 ## Sigma's Demon
@@ -127,8 +131,8 @@ Dont touch it
 health: 15
 attack: none
 magic:
-- lvl 1: 10 additional dodges
-- lvl 2: copy cat (reproduce any spell it's seen from another person)
+- lvl 1: copy cat (reproduce any spell it's seen from another person)
+- lvl 2: 
 - special: suicide explosion
 ````
 

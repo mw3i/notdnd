@@ -20,6 +20,7 @@ header_pages:
   - Classes/Dragon.md
   - Classes/Hydra.md
   - Classes/Griffin.md
-  - Weapons.md
-  - World.md
+  - World/Characters.md
+  - World/Monsters.md
+  - World/Weapons.md
 footer:

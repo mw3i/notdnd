@@ -6,7 +6,7 @@ environment: stone
 
 ![Source: https://www.wallpaperflare.com/warrior-wielding-spear-facing-dragon-digital-wallpaper-fantasy-art-wallpaper-hmddt](../assets/dragon-class.jpg){: width="60%"}
 
-- health: 25
+- health: 30
 - weapon: [**Dragon's Claw**](../Weapons)
     - made of wood and metal
     - +2 on all attacks
@@ -16,20 +16,20 @@ environment: stone
 
 ## Lvl 1: "up-syk" (Burst-Mode)
 ```yaml
-roll: 3+ on 1d6 >>
+roll: .
 recharge: 1 turn
 ```
 
-Adds buffs to other actions; choose:
+Perform an powered-up action; choose any of the following:
 
-- x3 distance on a single dash (but can only be in one direction; cant change angles)
-- burst rom: add damage to rom attack; push back 6 spaces / target mass (falcon punch)
+- x4 mod to dash
+- x2 mod to damage
+
+Plus:
+- burst-rom: add push-back effect (falcon punch);
     - large monster: 1 space
     - medium monster (human): 3 spaces
     - small monster: 6 spaces
-- burst weapon: add roll to an undodgeable weapon attack
-    - defender can still counter, but needs to roll higher than weapon roll + burst spell roll
-- burst los: no attack threshold on next move & full field awareness
 
 Rules:
 - only works on self
@@ -37,18 +37,16 @@ Rules:
 <!-- 
 Secret Uses:
 - can burst-rom a friendly to launch them 3 spaces (they take damage)
-- 
-
  -->
 
 ## Lvl 2: "rom-star" (Fire Breathing)
 ```yaml
-roll: 3+ on 1d6 >> x2
+roll: 1d8
 recharge: 3 turns
-range: 4 paces
+range: 4 dashes
 ```
 
-Breath a powerful stream fire towards anyone within 2 dashes
+Breath a powerful stream fire towards anyone within 4 dashes
 
 > think: cyclops from x-men, but with fire
 
@@ -59,13 +57,12 @@ Breath a powerful stream fire towards anyone within 2 dashes
     - tiles last 2 rounds
 
 <!--
-## Lvl 3 (special): "guts-mod"
+## Lvl 3 (special): "Up-Syk-Inf" (guts mode")
 ```yaml
-roll: 6+ on 1d20 >>
+roll: 1d20
 charge: 1 turn
 recharge: 1 day
 ```
-[6+ on 1d20; 1 day recharge]
 
 Recharge all spells
 
